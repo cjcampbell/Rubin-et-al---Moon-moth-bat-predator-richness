@@ -23,6 +23,8 @@ Scripts used to read, tidy, and standardize data and run analyses.
 
 
 ## out/
+| File                          | Description |
+| -----------                   | ----------- |
 | batRegions.csv                | Focal bat species found in moon moth regions. |
 | combinedContinuousSurface.tif | Insectivorous bat richness (tif file). |
 | includedBatSpecies.csv        | Bat species included in this analysis (successful SDM runs). |
