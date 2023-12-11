@@ -9,7 +9,7 @@ proj4_wgs <- "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
 
 # Load coordinates to be used. ----
 if(!file.exists(file.path(wd$data, "mothOccurrences.csv"))) {
-  read.csv("bin/Modified_fulldata_2-24-23.csv") %>% 
+  read.csv("Rubin_etal_2023_fulldata.csv") %>% 
     dplyr::select(decimalLongitude, decimalLatitude, genus, species, specificEpithet) %>% 
     fwrite(file.path(wd$data, "mothOccurrences.csv"), row.names = F)
 }
